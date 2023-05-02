@@ -6,8 +6,8 @@ import pandas as pd
 #2、构建推理机 对于录入冲突数据 利用ID3算法进行冲突消解
 #3、为模型训练生成更多数据，相比于直接从此推理，卷积训练出的模型泛化能力更好
 
-path = 'data/expert_com.csv'  #通信
-# path = 'data/expert_pos.csv' #定位
+path = './expert_com.csv'  #通信
+# path = './expert_pos.csv' #定位
 
 #添加规则
 def add_rule(k,v):
